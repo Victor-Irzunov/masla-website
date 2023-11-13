@@ -149,7 +149,12 @@ export default function Header() {
 								</li>
 							</ul>
 						</div>
-						<Image src='/logo/logo-black.webp' alt='логотип' width={200} height={46} />
+						<Link
+							className="cursor-pointer"
+							href={`${process.env.NEXT_PUBLIC_BASE_URL}/`}
+						>
+							<Image src='/logo/logo-black.webp' alt='логотип' width={200} height={46} />
+						</Link>
 					</div>
 
 					<div className="navbar-center hidden lg:flex">
