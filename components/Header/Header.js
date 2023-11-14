@@ -106,7 +106,7 @@ export default function Header() {
 											</li>
 											<li className='mb-3'>
 												<p className='font-semibold cursor-none'>
-													Охлождающие жидкости
+													Охлаждающие жидкости
 												</p>
 												<ul className='pl-5'>
 													<li className='mb-2'>
@@ -153,7 +153,7 @@ export default function Header() {
 							className="cursor-pointer"
 							href={`${process.env.NEXT_PUBLIC_BASE_URL}/`}
 						>
-							<Image src='/logo/logo-black.webp' alt='логотип' width={200} height={46} />
+							<Image src='/logo/logo.webp' alt='логотип' width={200} height={46} />
 						</Link>
 					</div>
 
@@ -236,7 +236,7 @@ export default function Header() {
 										</li>
 										<li>
 											<p className='uppercase text-xs font-semibold hover:bg-transparent'>
-												Охлождающие жидкости
+												Охлаждающие жидкости
 											</p>
 											<ul className='pl-1'>
 												<li className='mb-2'>
@@ -281,7 +281,7 @@ export default function Header() {
 						</ul>
 					</div>
 					<div className="navbar-end">
-						<div className="dropdown dropdown-end">
+						{/* <div className="dropdown dropdown-end">
 							<label tabIndex={0} className="btn">
 								{THEMES.length} Themes
 							</label>
@@ -290,11 +290,11 @@ export default function Header() {
 									THEMES.map((theme, i) => <li key={theme + i}><button data-set-theme={theme} onClick={handleThemeChange} className="font-medium capitalize">{i + 1 + '. ' + theme}</button></li>)
 								}
 							</ul>
-						</div>
+						</div> */}
 
-						{/* <a href='tel:80295403540' className='btn'>
+						<a href='tel:80295403540' className='link link-hover'>
 							8 029 640-35-40
-						</a> */}
+						</a>
 					</div>
 				</div>
 			</div>

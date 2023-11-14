@@ -11,7 +11,7 @@ const Kontakty = () => {
 	return (
 		<main className=''>
 			<div className='container mx-auto'>
-				<div className="hero min-h-screen" style={{ backgroundImage: 'url("/pages/kontacty/kontakty.webp")' }}>
+				<div className="hero min-h-screen" style={{ backgroundImage: "url('/pages/kontacty/kontacty.webp')" }}>
 					<div className="hero-overlay bg-opacity-60"></div>
 					<div className="hero-content text-center text-neutral-content">
 						<div className="max-w-md">
@@ -33,12 +33,26 @@ const Kontakty = () => {
 								<p className=''>
 									УНП 692224665
 								</p>
-								<p className=''>
+								<p className='mb-6'>
 									ЗАО "Альфа-Банк" БИК ALFABY2X р/с BY92ALFA30122D60990010270000
 								</p>
+								<a href="tel:80296403540" className="text-2xl">
+									+375 29 640-35-40
+								</a>
 							</address>
 
-							<a href="tel:80296403540" className="btn btn-warning sm:btn-wide">Позвонить</a>
+							<div className='mt-8 flex flex-col justify-center items-center'>
+								<div className="avatar online mb-4">
+									<div className="w-24 rounded-full ">
+										<img src="/pages/kontacty/kont.webp" alt="диспетчер компании Резонанс Групп" />
+									</div>
+								</div>
+								<p className='mb-4'>
+									Если у вас остались вопросы или вам требуется дополнительная информация, не стесняйтесь связаться с нами. Мы готовы помочь вам решить любые вопросы или предоставить всю необходимую информацию.
+								</p>
+								<a href="tel:80296403540" className="btn btn-warning sm:btn-wide">Позвонить</a>
+							</div>
+
 						</div>
 					</div>
 				</div>

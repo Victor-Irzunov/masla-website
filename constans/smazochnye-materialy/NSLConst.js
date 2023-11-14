@@ -11,20 +11,20 @@ export const data = [
 		img: '/pages/nsl/card2.webp',
 		alt: 'Масло NSL TIDAL POWER HDX 15w-40',
 		h3: 'Масло NSL TIDAL POWER HDX 15w-40',
-		p: 'Полусинтетическое моторное масло объёмом 4л., 20л., 200л.'
+		p: 'Минеральное моторное масло объёмом 4л., 20л., 200л.'
 	},
 	{
 		id: 3,
 		img: '/pages/nsl/card3.webp',
 		alt: 'Масло NSL SUPER TRACTOR POWER 10W-30',
 		h3: 'Масло NSL SUPER TRACTOR POWER 10W-30',
-		p: 'Минеральное моторное масло объёмом 4л., 20л., 200л.'
+		p: 'Полусинтетическое моторное масло объёмом 4л., 20л., 200л.'
 	},
 	{
 		id: 4,
 		img: '/pages/nsl/card4.webp',
-		alt: 'Масло NSL HYDRA POWER 4G',
-		h3: 'Масло NSL HYDRA POWER 4G',
+		alt: 'Масло NSL HYDRA POWER 46',
+		h3: 'Масло NSL HYDRA POWER 46',
 		p: 'Гидравлическое масло моторное масло объёмом 4л., 20л., 200л.'
 	},
 ]

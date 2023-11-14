@@ -24,11 +24,11 @@ export default function Home() {
                 <span className="block mb-2">
                   смазочных материалов
                 </span>
-                {/* <span className="block mb-2">
-                   
-                </span> */}
+                <span className="block mb-2">
+                   охлождающих жидкостей
+                </span>
                 <span className="block">
-                  и фильтров
+                  фильтров
                 </span>
               </h1>
               <h2 className='text-xl uppercase mb-8'>
